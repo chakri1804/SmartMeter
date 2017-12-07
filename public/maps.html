@@ -22,7 +22,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Material Dashboard Lite</title>
+    <title>Switches</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -71,13 +71,13 @@
             </div>
 
             <div class="material-icons mdl-badge mdl-badge--overlap mdl-button--icon notification" id="notification"
-                 data-badge="23">
+                 data-badge="0">
                 notifications_none
             </div>
 
             <ul class="mdl-menu mdl-list mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right mdl-shadow--2dp notifications-dropdown"
                 for="notification">
-                <li class="mdl-list__item">
+                <!-- <li class="mdl-list__item">
                     You have 23 new notifications!
                 </li>
                 <li class="mdl-menu__item mdl-list__item list__item--border-top">
@@ -124,18 +124,18 @@
                       <span class="label">5 days</span>
                     </span>
                 </li>
-                <li class="mdl-list__item list__item--border-top">
+                 --><li class="mdl-list__item list__item--border-top">
                     <button href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">ALL NOTIFICATIONS</button>
                 </li>
             </ul>
 
-            <div class="material-icons mdl-badge mdl-badge--overlap mdl-button--icon message" id="inbox" data-badge="4">
+            <div class="material-icons mdl-badge mdl-badge--overlap mdl-button--icon message" id="inbox" data-badge="0">
                 mail_outline
             </div>
 
             <ul class="mdl-menu mdl-list mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right mdl-shadow--2dp messages-dropdown"
                 for="inbox">
-                <li class="mdl-list__item">
+               <!--  <li class="mdl-list__item">
                     You have 4 new messages!
                 </li>
                 <li class="mdl-menu__item mdl-list__item mdl-list__item--two-line list__item--border-top">
@@ -161,8 +161,8 @@
                     <span class="mdl-list__item-secondary-content">
                       <span class="label label--transparent">5 min</span>
                     </span>
-                </li>
-                <li class="mdl-menu__item mdl-list__item mdl-list__item--two-line list__item--border-top">
+                </li> -->
+                <!-- <li class="mdl-menu__item mdl-list__item mdl-list__item--two-line list__item--border-top">
                     <span class="mdl-list__item-primary-content">
                         <span class="mdl-list__item-avatar background-color--cerulean">
                             <text>D</text>
@@ -173,8 +173,8 @@
                     <span class="mdl-list__item-secondary-content">
                       <span class="label label--transparent">23 hours</span>
                     </span>
-                </li>
-                <li class="mdl-menu__item mdl-list__item mdl-list__item--two-line list__item--border-top">
+                </li> -->
+               <!--  <li class="mdl-menu__item mdl-list__item mdl-list__item--two-line list__item--border-top">
                     <span class="mdl-list__item-primary-content">
                         <span class="mdl-list__item-avatar background-color--mint">
                             <text>D</text>
@@ -186,7 +186,7 @@
                       <span class="label label--transparent">30 Nov</span>
                     </span>
                 </li>
-                <li class="mdl-list__item list__item--border-top">
+                --> <li class="mdl-list__item list__item--border-top">
                     <button href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">SHOW ALL MESSAGES</button>
                 </li>
             </ul>
@@ -252,7 +252,7 @@
                 <li class="mdl-menu__item">
                     Settings
                 </li>
-                <a class="mdl-menu__item" href="https://github.com/CreativeIT/getmdl-dashboard/issues">
+                <a class="mdl-menu__item" href="https://github.com/chakri1804/SmartMeter">
                     Support
                 </a>
                 <li class="mdl-menu__item">
@@ -263,7 +263,7 @@
     </header>
 
     <div class="mdl-layout__drawer">
-        <header>darkboard</header>
+        <header>Smart Meter</header>
         <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="index.html">
                 <i class="material-icons" role="presentation">dashboard</i>
@@ -275,7 +275,7 @@
             </a>
             <a class="mdl-navigation__link mdl-navigation__link--current" href="maps.html">
                 <i class="material-icons" role="presentation">map</i>
-                Maps
+                Switches
             </a>
             <a class="mdl-navigation__link" href="ui.html">
                 <i class="material-icons">view_comfy</i>
@@ -283,7 +283,7 @@
             </a>
 
             <div class="mdl-layout-spacer"></div>
-            <a class="mdl-navigation__link" href="https://github.com/CreativeIT/getmdl-dashboard">
+            <a class="mdl-navigation__link" href="https://github.com/chakri1804/SmartMeter">
                 <i class="material-icons" role="presentation">link</i>
                 GitHub
             </a>
@@ -296,14 +296,40 @@
         <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
             <div class="mdl-card mdl-shadow--2dp map">
                 <div class="curtain"></div>
-                <div class="mdl-card--expand map__window">
+                <!-- Raised button with ripple -->
+                
 
-                </div>
+                <li class="mdl-list__item">
+                    <a href="toggle1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored-red">
+                        <i class="material-icons"></i>
+                            Toggle Bulb 1
+                    </a>
+                </li>
+
+                <!-- <div class="center-align">
+                <a href="toggle" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white" style="width: 100px; height: 40px; min-width: initial;">Toggle Bulb 2</a>
+                </div> -->
+
+                <li class="mdl-list__item">
+                <a href="toggle2" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored-light-blue">
+                        <i class="material-icons"></i>
+                            Toggle Bulb 2
+                        </a>
+                </li>
+
+
+                <!-- <link href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" rel="stylesheet"/>
+                <button id="myButton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">
+                <i class="material-icons">add</i>
+                </button>
+ -->
+
+
+
+
                 <div class="mdl-card__supporting-text">
                     <div class="pull-right">
-                        <div class="map__target-image">
-                            <div class="map__target-picture"></div>
-                        </div>
+           
                     </div>
                     <div class="map__target-info">
                         <h5 class="map__target-title"></h5>
